@@ -8,10 +8,11 @@
     "scripts": {
         "start": "node index.js"
     }
-}
-
-
+    
 “publishConfig”: {
  “registry”: “http://34.229.191.129>/repository/npm-internal/"
  },
+}
+
+
 
