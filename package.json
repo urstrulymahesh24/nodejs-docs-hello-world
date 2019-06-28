@@ -12,11 +12,21 @@
 
 }
 
-…
-“publishConfig”: {
- “registry”: “http://34.229.191.129/repository/npm-internal/"
- },
-…
+{
+  "name": "npm-app1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://34.229.191.129:8081/repository/npm-private/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
 
 
 
